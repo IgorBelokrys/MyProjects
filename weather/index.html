@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/модуль-2/погода/images/Clouds.png" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <form class="form">
+          <input
+            class="inputSearch"
+            type="text"
+            placeholder="Введите название города"
+          />
+          <button class="buttonSearch">
+            <img
+              class="iconSearch"
+              src="./images/search.png"
+              alt="Кнопка поиска"
+            />
+          </button>
+        </form>
+      </header>
+      <section class="main">
+        <div class="left-wrap">
+          <div class="temperature">
+            <span class="number">14</span>
+            <img class="iconGradus" src="./images/mask.png" />
+          </div>
+          <div class="weather">
+            <img class="iconWeather" src="./images/Sun.png" />
+          </div>
+          <div class="city">
+            <p class="cityForAdd"></p>
+            <button class="favoriteButton">
+              <img class="iconFavorite" src="./images/Shape.png" />
+            </button>
+          </div>
+        </div>
+        <div class="right-wrap">
+          <h1 class="favoriteTitle">Избранное:</h1>
+          <div class="favoriteList"></div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

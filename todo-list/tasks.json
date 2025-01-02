@@ -1,0 +1,5 @@
+[
+  { "task": "Learn JavaScript", "done": false },
+  { "task": "Build a website", "done": false },
+  { "task": "Read a book about Node.js", "done": true }
+]
