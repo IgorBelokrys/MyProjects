@@ -15,7 +15,7 @@ function addTask(taskName, status = NOTDEFINED) {
 
   if (!task) {
     if (taskName.length > 20) {
-      throw new Error('слишком длинное название');
+      throw new Error('слишком длинное название!');
     }
     const newTask = { task: taskName, status };
     toDo.push(newTask);
